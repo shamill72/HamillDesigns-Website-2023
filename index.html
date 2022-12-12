@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamill Designs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+      integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
+      crossorigin="anonymous"
+    ></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript" src="scripts.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header" id="header">
+      <div class="head-title"><a href="#">Portfolio</a></div>
+      <div class="menu">
+        <a href="#bio">Bio</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </section>
+    <section class="bio" id="bio">
+      <div class="bio-outer">
+        <div class="bio-inner-left">
+          <h1>Hello</h1>
+          <h3>I'm Shane Hamill</h3>
+          <div class="image-blurred">&nbsp;</div>
+        </div>
+        <div class="bio-inner-middle"></div>
+        <div class="bio-inner-right">
+          <div class="bio-right-text">
+            <h1>Bio</h1>
+            <p>
+              I am a web developer. I have been working as a professional web
+              developer for the past year at a company here in Franklin, TN. I
+              have spent the last year building eCommerce sites in Shopify Plus,
+              as well as a custom web application for annual employee reviews.
+            </p>
+            <p>
+              Prior to becoming a web developer, I spent thirty years in the music
+              entertainment industry. The first twenty years, I was a touring
+              professional. I held positions as an audio engineer/technician,
+              stage manager, production manager, and tour manager over the years
+              for various artists.
+            </p>
+          </div>
+          <div class="tags"><div class="tag">HTML</div><div class="tag">CSS</div><div class="tag">Javascript</div><div class="tag">PHP</div></div>
+          <div class="tags"><div class="tag2">Shopify Developer</div><div class="tag2">WordPress Developer</div></div>
+          <img src="/images/HamillDesigns_300px.png" alt="Hamill Designs Logo" />
+        </div>
+      </div>
+    </section>
+    <section class="work" id="work">
+      <div class="work-header">
+        <h1>Some samples of my professional work</h1>
+      </div>
+      <div class="work-outer">
+        <button class="collapsible" onclick="expandClick()">
+          <div class="work-inner-header">
+            <h2>F9 Brands Employee Review web app</h2>
+          </div>
+        </button>
+        <div class="contentNew">
+          <div class="work-inner-left">
+            <div
+              class="work-image1"
+              id="myImg1"
+              title="F9 Brands Employee Review application"
+            >
+              &nbsp;
+            </div>
+          </div>
+          <div class="work-inner-right">
+            This project was created using PHP, HTML5, CSS3, Javascript, MySQL.
+            The company requested a digital format to create and store employee
+            reviews. With over 500 employees, nearly 100 store managers and
+            regional managers, the need to keep employees visible to only their
+            direct reports was a challenge. This required some complicated SQL
+            queries and nested queries. It was successfully launched and used in
+            2022. The page to the left is a screenshot of the home page.
+          </div>
+          <div class="work-inner-left">
+            <div
+              class="work-image2"
+              id="myImg2"
+              title="F9 Brands Employee Review application"
+            >
+              &nbsp;
+            </div>
+          </div>
+          <div class="work-inner-right">
+            The page to the left is a screenshot of a sample review in process.
+            There are three different types of reviews, based on the employee
+            position. Each review evaluated different areas depending on the
+            employee's responsibility.
+          </div>
+        </div>
+        <button class="collapsible" onclick="expandClick()">
+          <div class="work-inner-header">
+            <h2>Thos Baker - eCommerce site</h2>
+          </div>
+        </button>
+        <div class="contentNew">
+          <div class="work-inner-left">
+            <div
+              class="work-image3"
+              id="myImg3"
+              title="thosbaker.com eCommerce site"
+            >
+              &nbsp;
+            </div>
+          </div>
+          <div class="work-inner-right">
+            When F9 Brands acquired Thos Baker outdoor furniture, the products were first sold on the Gracious Home website. There was a need to create an eCommerce site for Thos Baker. I made this in Shopify Plus using the Galleria theme by MileHigh as a starting template. I did a lot of customization in the JSON and liquid files, utulizing the Shopify CLI environment. The layout and image choice was directed by the UI Designer.
+          </div>
+        </div>
+        <button class="collapsible" onclick="expandClick()">
+          <div class="work-inner-header">
+            <h2>Cabinets To Go - eCommerce site</h2>
+          </div>
+        </button>
+        <div class="contentNew">
+          <div class="work-inner-left">
+            <div
+              class="work-image4"
+              id="myImg4"
+              title="cabinetstogo.com eCommerce site"
+            >
+              &nbsp;
+            </div>
+          </div>
+          <div class="work-inner-right">
+            Cabinets To Go eCommerce site was developed several years ago in Shopify. Since coming onboard at Cabinets To Go, I have helped to develop new functionality and maintain current functionality of the site. I also developed forms on the site that push the data to the company's ERP, NetSuite. There are plans to re-build the site in the newer Shopify 2.0 format in 2023.
+          </div>
+        </div>
+        <button class="collapsible" onclick="expandClick()">
+          <div class="work-inner-header">
+            <h2>Gracious Home - eCommerce site</h2>
+          </div>
+        </button>
+        <div class="contentNew">
+          <div class="work-inner-left">
+            <div
+              class="work-image5"
+              id="myImg5"
+              title="cabinetstogo.com eCommerce site"
+            >
+              &nbsp;
+            </div>
+          </div>
+          <div class="work-inner-right">
+            Gracious Home was developed several years ago in BigCommerce. I have maintained and developed some new functionality. I am currently re-building the site in the Shopify Plus platform. We are building this version to automate between NetSuite and Oracle's OCM. The approach is to have all products sync and update from NetSuite to Shopify and to have all product images sync from Oracle OCM to NetSuite, which will then update to Shopify. This will eliminate the need for a web administrator to upload and update products directly in the site.
+          </div>
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+        <span class="close" id="close">&times;</span>
+       <a href="" id="modal-link" target="_blank"><img class="modal-content" id="img01" /></a>
+        <div id="caption"></div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div>
+        Email: shane@hamilldesigns.com
+      </div>
+      <div class="form-group">
+        <form action="https://formspree.io/f/mwkaandv" method="POST" id="email-form">
+          <h3>Message Me</h3>
+          <input type="hidden" name="subject" value="Website form email" />
+          <input placeholder="Full Name" typeof="text" name="name"value=""class="form-control" />
+          <input placeholder="Email" typeof="email" name="email" value="" class="form-control"/>
+          <textarea placeholder="Your message" typeof="text" name="body" value="Message" class="form-control" rows="10"></textarea>
+          <br />
+          <div class="g-recaptcha" data-sitekey="6Lfj1cIdAAAAAI8N9sCphKCbKjuNafJ4aAss39MO" data-callback="enableBtn"></div>
+          <br />
+          <input type="submit" id="send_btn" class="btn" value="Send" disabled="disabled">
+      </form>
+      <div id="status"></div>
+      </div>
+      
+    </section>
+    <footer>&copy; 2022 HamillDesigns</footer>
+  </body>
+</html>
