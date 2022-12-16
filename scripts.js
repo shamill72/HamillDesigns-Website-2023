@@ -46,7 +46,3 @@ $(document).ready(function() {
         });
     }
 });
-
-function enableBtn() {
-    $('#send_btn').disabled = false;
-}
