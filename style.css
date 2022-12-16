@@ -346,6 +346,9 @@ button {
     }
     .work-inner-right {
         padding: 0;
+        max-width: 65%;
+        text-align: justify;
+        padding-bottom: 24em;
     }
     .work-inner-left {
         padding: 1em 0;
