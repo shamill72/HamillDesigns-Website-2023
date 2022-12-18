@@ -91,7 +91,7 @@ footer {
 }
 
 .image-blurred {
-    background-image: url(images/professional_look_bw.png);
+    background-image: url(images/professional_look_bw.webp);
     background-size: 300px 395px;
     width: 300px;
     height: 395px;
@@ -100,7 +100,7 @@ footer {
 }
 
 .image-blurred:hover {
-    background-image: url(images/professional_look_color.png);
+    background-image: url(images/professional_look_color.webp);
     background-size: 300px 395px;
     width: 300px;
     height: 395px;
@@ -175,7 +175,7 @@ button {
 .work-image1 {
     width: 415px;
     height: 247px;
-    background-image: url(images/Reviews_homepage_bw.png);
+    background-image: url(images/Reviews_homepage_bw.webp);
     background-size: 415px 247px;
     cursor: pointer;
     transition: 0.3s;
@@ -184,14 +184,14 @@ button {
 .work-image1:hover {
     width: 415px;
     height: 247px;
-    background-image: url(images/Reviews_homepage_color.png);
+    background-image: url(images/Reviews_homepage_color.webp);
     background-size: 415px 247px;
 }
 
 .work-image2 {
     width: 415px;
     height: 247px;
-    background-image: url(images/Reviews_reviewpage_bw.png);
+    background-image: url(images/Reviews_reviewpage_bw.webp);
     background-size: 415px 247px;
     cursor: pointer;
     transition: 0.3s;
@@ -200,14 +200,14 @@ button {
 .work-image2:hover {
     width: 415px;
     height: 247px;
-    background-image: url(images/Reviews_reviewpage_color.png);
+    background-image: url(images/Reviews_reviewpage_color.webp);
     background-size: 415px 247px;
 }
 
 .work-image3 {
     width: 415px;
     height: 247px;
-    background-image: url(images/thosbaker_homepage_bw.png);
+    background-image: url(images/thosbaker_homepage_bw.webp);
     background-size: 415px 247px;
     cursor: pointer;
     transition: 0.3s;
@@ -216,14 +216,14 @@ button {
 .work-image3:hover {
     width: 415px;
     height: 247px;
-    background-image: url(images/thosbaker_homepage_color.png);
+    background-image: url(images/thosbaker_homepage_color.webp);
     background-size: 415px 247px;
 }
 
 .work-image4 {
     width: 415px;
     height: 247px;
-    background-image: url(images/CTG_homepage_bw.png);
+    background-image: url(images/CTG_homepage_bw.webp);
     background-size: 415px 247px;
     cursor: pointer;
     transition: 0.3s;
@@ -232,14 +232,14 @@ button {
 .work-image4:hover {
     width: 415px;
     height: 247px;
-    background-image: url(images/CTG_homepage_color.png);
+    background-image: url(images/CTG_homepage_color.webp);
     background-size: 415px 247px;
 }
 
 .work-image5 {
     width: 415px;
     height: 247px;
-    background-image: url(images/GraciousHome_homepage_bw.png);
+    background-image: url(images/GraciousHome_homepage_bw.webp);
     background-size: 415px 247px;
     cursor: pointer;
     transition: 0.3s;
@@ -248,7 +248,7 @@ button {
 .work-image5:hover {
     width: 415px;
     height: 247px;
-    background-image: url(images/GraciousHome_homepage_color.png);
+    background-image: url(images/GraciousHome_homepage_color.webp);
     background-size: 415px 247px;
 }
 
