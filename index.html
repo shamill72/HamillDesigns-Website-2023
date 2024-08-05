@@ -180,7 +180,7 @@
           <h3>Message Me</h3>
           <input type="hidden" name="subject" value="Website form email" />
           <input placeholder="Full Name" typeof="text" name="name"value=""class="form-control" required />
-          <input type="text" name="gotcha" id="gotcha" class="bot-trap">
+          <input type="text" name="gotcha" id="gotcha" class="bot-trap" value="">
           <input placeholder="Email" typeof="email" name="email" value="" class="form-control" required/>
           <textarea placeholder="Your message" typeof="text" name="body" value="Message" class="form-control" rows="10" required></textarea>
           <br />
@@ -194,9 +194,23 @@
     </section>
     <footer>&copy; 2022 HamillDesigns</footer>
     <script>
+      document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('email-form');
+            const gotchaField = document.getElementById('gotcha');
+            const sendBtn = document.getElementById('send_btn');
+
+            form.addEventListener('submit', function(event) {
+                // Check if the honeypot field is filled
+                if (gotchaField.value) {
+                    // Prevent form submission
+                    event.preventDefault();
+                    alert('Form submission failed. You are a bot!');
+                }
+            });
       function enableBtn() {
         document.getElementById("send_btn").disabled = false;
       }
+      });
     </script>
   </body>
 </html>
