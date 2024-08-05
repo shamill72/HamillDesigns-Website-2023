@@ -45,4 +45,13 @@ $(document).ready(function() {
             }
         });
     }
+        function botTrap() {
+       let botCheck = document.getElementById('gotcha').value;
+       console.log(botCheck);
+       if(botCheck !== '') {
+        console.log('Bot detected');
+        return false;
+       }
+       return true;
+    }
 });
