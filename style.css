@@ -7,6 +7,9 @@
 a {
     color: #fff;
 }
+.bot-trap {
+    display: none;
+}
 a:hover {
     color: rgb(95,94,224);
 }
